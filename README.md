@@ -1,1 +1,1 @@
-# Reinforcement Learning and Probabilistic Planning 
+# International Probabilistic Planning Competition 
