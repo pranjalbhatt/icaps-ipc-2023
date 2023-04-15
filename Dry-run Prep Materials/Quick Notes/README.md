@@ -14,7 +14,7 @@ This is a behavior description, this type of code can be found in the domain blo
 
 **a) types:** used to define different type of objects that appear in an environment.
 
-**b) pvariable (parameterized variable):** primarily used to represent state of the environment, but can also include the state of the agent, e.g. if the agent has health attribute.
+**b) pvariable (parameterized variable):** These variables include constant values, states and action variables, as well as potentially intermediate and observed variables. Ultimately, these variables will serve as condition-determining parameters in transitions of states. The variables declared in this section can be either parameterized by one or more objects, or non-parameterized
 
 **c) cpfs (conditional probability function):** specifies relationship between different variables.
 
