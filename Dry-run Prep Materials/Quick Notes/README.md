@@ -2,7 +2,7 @@
 
 ### A) domain.rddl:
   1.  Lifted Reprentation/Ungrounded Representation
-  2.  
+  2.  A template/blueprint of the task/problem which we are trying to model/optimize - doesn't include specifics - just defines the underlying structure
    
 
 ![image](https://user-images.githubusercontent.com/129742046/232253763-e7a87679-2796-4a95-b909-97a35cc9a7f6.png)
@@ -40,7 +40,7 @@ This is a behavior description, this type of code can be found in the domain blo
     
 ### B) instance.rddl:
  1. Grounded Representation
- 2.  
+ 2. Includes specifics;could include intial state (but not necessarily), objectives and additional constraints. 
     
     
 i) Defining the objects in the problem: 
