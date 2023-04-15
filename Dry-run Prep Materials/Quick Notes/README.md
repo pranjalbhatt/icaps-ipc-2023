@@ -54,6 +54,7 @@ iii) So in the lifted description we have behavior, types and objects for instan
 ![image](https://user-images.githubusercontent.com/129742046/232256896-1d7e9437-9b89-4919-bd67-fa2bf8952101.png)
 
 iv) and the explicit effect will be:
+
 ![image](https://user-images.githubusercontent.com/129742046/232257008-cd83534c-acfd-4eb5-b72e-a6060d639fd4.png)
 
 
