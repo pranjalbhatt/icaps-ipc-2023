@@ -18,7 +18,7 @@ This is a behavior description, this type of code can be found in the domain blo
 **c) cpfs (conditional probability function):** specifies relationship between different variables.
 
 
-#### Types of pvariables:
+### Types of pvariables:
 
 ![image](https://user-images.githubusercontent.com/129742046/232253581-a46eecbf-3e7f-4958-9fce-587c258b971b.png)
 
@@ -26,9 +26,13 @@ This is a behavior description, this type of code can be found in the domain blo
 
 
     1. **Non-fluent (constant):** Does not change its truth value during the execution of an action or due to external events--- fixed probability distribution--- e.g. probability of truck breaking down based on historical data.
+    
     2. **Action-fluent:** A predicate that can change its truth value as a result of executing an action. For example, in a logistics domain, the predicate "at(robot, location)" could be an action fluent because its truth value changes when the robot moves to a different location.
-    3. **State-fluent:** A predicate that can change its truth value due to external events/based on state of the world, not necessarily actions.  
+    
+    3. **State-fluent:** A predicate that can change its truth value due to external events/based on state of the world, not necessarily actions. 
+    
     4. **Interm-fluent:** Predicate that is not directly observable or controllable, but whose truth value is affected by other fluents and/or actions in the system.
+    
     5. **Derived-fluent:** Predicates whose truth values can be computed from other fluents or variables in the state. 
     
     
