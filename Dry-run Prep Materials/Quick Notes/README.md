@@ -23,7 +23,7 @@ This is a behavior description, this type of code can be found in the domain blo
 
 ![image](https://user-images.githubusercontent.com/129742046/232253581-a46eecbf-3e7f-4958-9fce-587c258b971b.png)
 
-(Source: [Link](https://github.com/ataitler/pyRDDLGym/blob/main/docs/rddlgraph.png))
+(Image Source: [Link](https://github.com/ataitler/pyRDDLGym/blob/main/docs/rddlgraph.png))
 
 
  1. **Non-fluent (constant):** Variable that never changes during a simulation. Non-fluents will be initialized in the non-fluents block before simulation starts
