@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/129742046/232253763-e7a87679-2796-4a95-b909-97a35cc9a7f6.png)
 
-(Fig. 1: Illustration of domain.rddl Source: [Link](https://ataitler.github.io/IPPC2023/infrastructure.html))
+Fig. 1: Illustration of domain.rddl (Source: [Link](https://ataitler.github.io/IPPC2023/infrastructure.html))
 
 This is a behavior description, this type of code can be found in the domain block of the RDDL code. In the code above no specific car is described. that will be done in the instance.
 
