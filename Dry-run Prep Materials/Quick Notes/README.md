@@ -1,8 +1,8 @@
 # Quick Notes:
 
 ### A) domain.rddl:
-     - Lifted Reprentation/Ungrounded Representation
-     - 
+  1.  Lifted Reprentation/Ungrounded Representation
+   
 
 ![image](https://user-images.githubusercontent.com/129742046/232253763-e7a87679-2796-4a95-b909-97a35cc9a7f6.png)
 
