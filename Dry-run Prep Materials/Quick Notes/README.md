@@ -2,6 +2,7 @@
 
 ### A) domain.rddl:
   1.  Lifted Reprentation/Ungrounded Representation
+  2.  
    
 
 ![image](https://user-images.githubusercontent.com/129742046/232253763-e7a87679-2796-4a95-b909-97a35cc9a7f6.png)
@@ -25,20 +26,21 @@ This is a behavior description, this type of code can be found in the domain blo
 (Source: [Link](https://github.com/ataitler/pyRDDLGym/blob/main/docs/rddlgraph.png))
 
 
- 1. **Non-fluent (constant):** Does not change its truth value during the execution of an action or due to external events--- fixed probability distribution--- e.g. probability of truck breaking down based on historical data.
+ 1. **Non-fluent (constant):** Variable that never changes during a simulation. Non-fluents will be initialized in the non-fluents block before simulation starts
     
- 2. **Action-fluent:** A predicate that can change its truth value as a result of executing an action. For example, in a logistics domain, the predicate "at(robot, location)" could be an action fluent because its truth value changes when the robot moves to a different location.
+ 2. **Action-fluent:** Variable that represents the action of a simulation, often used to describe if a transition between two different states is happening.
     
- 3. **State-fluent:** A predicate that can change its truth value due to external events/based on state of the world, not necessarily actions. 
+ 3. **State-fluent:** Variable that represents the state of a simulation, often used to describe the state or relative state of objects (e.g., locations, occupancy, etc.).
     
- 4. **Interm-fluent:** Predicate that is not directly observable or controllable, but whose truth value is affected by other fluents and/or actions in the system.
+ 4. **Interm-fluent:** Variable that is used as an intermediate conditional probability calculation. Intermediate fluents must have a level of stratification, and are strictly stratified so that an intermediate variable can only condition on intermediate variables of a strictly lower level or state variable.
+
+ 6. **Observ-fluent:** Variable used as a conditional observation probability in partially observable Markov decision process (POMDP).
     
- 5. **Derived-fluent:** Predicates whose truth values can be computed from other fluents or variables in the state. 
-    
-    
+(Source: [Link](https://github.com/ataitler/pyRDDLGym/blob/main/docs/rddl.rst))    
     
 ### B) instance.rddl:
-    - Grounded Representation
+ 1. Grounded Representation
+ 2.  
     
     
 i) Defining the objects in the problem:    
@@ -48,10 +50,10 @@ i) Defining the objects in the problem:
 ii) Now that we have specific car objects, we can define their intial state:
 ![image](https://user-images.githubusercontent.com/129742046/232256845-08d0f2a0-3e6c-46fe-a683-2ee07aae6d06.png)
 
-iii)
+iii) So in the lifted description we have behavior, types and objects for instantiation. When pyRDDLGym instantiate an environment it will ground everything, which means we will no longer have types and objects, we will have only effects and evolutions over the explicit variables of the problem, i.e., the variables of the problem will be (with their initial values):
 ![image](https://user-images.githubusercontent.com/129742046/232256896-1d7e9437-9b89-4919-bd67-fa2bf8952101.png)
 
-iv) 
+iv) and the explicit effect will be:
 ![image](https://user-images.githubusercontent.com/129742046/232257008-cd83534c-acfd-4eb5-b72e-a6060d639fd4.png)
 
 
