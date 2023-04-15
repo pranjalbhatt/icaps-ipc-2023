@@ -43,14 +43,17 @@ This is a behavior description, this type of code can be found in the domain blo
  2.  
     
     
-i) Defining the objects in the problem:    
+i) Defining the objects in the problem: 
+
 ![image](https://user-images.githubusercontent.com/129742046/232256799-94255e80-3384-4f65-9dda-b7aa54dda466.png)
 
 
 ii) Now that we have specific car objects, we can define their intial state:
+
 ![image](https://user-images.githubusercontent.com/129742046/232256845-08d0f2a0-3e6c-46fe-a683-2ee07aae6d06.png)
 
 iii) So in the lifted description we have behavior, types and objects for instantiation. When pyRDDLGym instantiate an environment it will ground everything, which means we will no longer have types and objects, we will have only effects and evolutions over the explicit variables of the problem, i.e., the variables of the problem will be (with their initial values):
+
 ![image](https://user-images.githubusercontent.com/129742046/232256896-1d7e9437-9b89-4919-bd67-fa2bf8952101.png)
 
 iv) and the explicit effect will be:
