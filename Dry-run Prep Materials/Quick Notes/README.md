@@ -18,7 +18,7 @@ This is a behavior description, this type of code can be found in the domain blo
 **c) cpfs (conditional probability function):** specifies relationship between different variables.
 
 
-### Types of pvariables:
+### RDDL Graph:
 
 ![image](https://user-images.githubusercontent.com/129742046/232253581-a46eecbf-3e7f-4958-9fce-587c258b971b.png)
 
