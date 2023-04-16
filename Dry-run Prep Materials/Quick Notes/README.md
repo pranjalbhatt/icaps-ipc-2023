@@ -1,7 +1,7 @@
 # Quick Notes:
 
 ### A) domain.rddl:
-  1.  Lifted Reprentation/Ungrounded Representation
+  1.  Lifted Representation/Ungrounded Representation
   2.  A template/blueprint of the task/problem which we are trying to model/optimize - doesn't include specifics - just defines the underlying structure
    
 
