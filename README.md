@@ -1,6 +1,6 @@
 # International Conference on Automated Planning and Scheduling (ICAPS)
 
-## International Probabilistic Planning Competition  (IPS 2023)
+## International Probabilistic Planning
 
 
 Ongoing project. Stay Tuned.
