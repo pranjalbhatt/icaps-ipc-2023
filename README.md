@@ -3,4 +3,5 @@
 ## International Probabilistic Planning
 
 
-Ongoing project. Stay Tuned.
+Ongoing project. Currently executing on two domains.   
+Stay Tuned.
