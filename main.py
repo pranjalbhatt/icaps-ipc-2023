@@ -7,18 +7,13 @@ from pyRDDLGym import RDDLEnv
 from pyRDDLGym import ExampleManager
 from pyRDDLGym.Policies.Agents import NoOpAgent
 
-############################################################
-# IMPORT THE AGENT AND OTHER DEPENDENCIES OF YOUR SOLUTION #
-
+###
+# import dependencies for agents and environments
 import numpy as np
 from fibonacci import fibonacci
 from MyAgent.Agent import NoOpAgent as MyRDDLAgent
 from MyAgent.RandomAgent import RandomAgent as MyRDDLAgent
-
-
-
-
-############################################################
+# install py-fibonacci 
 
 
 def signal_handler(signum, frame):
@@ -46,13 +41,13 @@ def main(env, inst, method_name=None, episodes=1):
     defaultAgent = NoOpAgent(action_space=myEnv.action_space,
                         num_actions=myEnv.numConcurrentActions)
 
-    ################################################################
-    # Initialize your agent here:
+    ###
+    # Initialize 
     agent = MyRDDLAgent(action_space=myEnv.action_space,
                         num_actions=myEnv.numConcurrentActions)
 
 
-    ################################################################
+    ### Test a few agents...
 
 
     signal.signal(signal.SIGALRM, signal_handler)
@@ -70,13 +65,13 @@ def main(env, inst, method_name=None, episodes=1):
                 signal.setitimer(signal.ITIMER_REAL, elapsed)
                 try:
                     start = time.time()
-                    #################################################################
-                    # replace the following line of code with your agent call
+                    
+                    ### Call Agent
                     action = MyRDDLAgent.sample_action()
 
+                    ### Test few sample actions ...
 
-
-                    #################################################################
+                    
                     finish = time.time()
                 except:
                     print('Timed out!')
@@ -109,7 +104,7 @@ def main(env, inst, method_name=None, episodes=1):
     myEnv.close()
 
     ########################################
-    # CLEAN UP ANY RESOURCES YOU HAVE USED #
+    # CLEAN UP ANY RESOURCES #
 
 
     ########################################
