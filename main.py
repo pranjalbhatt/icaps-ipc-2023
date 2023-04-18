@@ -9,9 +9,10 @@ from pyRDDLGym.Policies.Agents import NoOpAgent
 
 ############################################################
 # IMPORT THE AGENT AND OTHER DEPENDENCIES OF YOUR SOLUTION #
-# from MyAgent.Agent import NoOpAgent as MyRDDLAgent
+
 import numpy as np
 from fibonacci import fibonacci
+from MyAgent.Agent import NoOpAgent as MyRDDLAgent
 from MyAgent.RandomAgent import RandomAgent as MyRDDLAgent
 
 
