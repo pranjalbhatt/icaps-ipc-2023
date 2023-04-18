@@ -8,7 +8,7 @@ from pyRDDLGym import ExampleManager
 from pyRDDLGym.Policies.Agents import NoOpAgent
 
 ############################################################
-# IMPORT THE AGENT AND OTHER DEPENDENCIES #
+# IMPORT THE AGENT AND OTHER DEPENDENCIES OF YOUR SOLUTION #
 from MyAgent.Agent import NoOpAgent as MyRDDLAgent
 
 
@@ -132,4 +132,3 @@ if __name__ == "__main__":
         except:
             raise ValueError("episode must be an integer value argument, received: " + episodes)
     main(env, inst, method_name, episodes)
-
