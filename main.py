@@ -8,7 +8,7 @@ from pyRDDLGym import ExampleManager
 from pyRDDLGym.Policies.Agents import NoOpAgent
 
 ############################################################
-# IMPORT THE AGENT AND OTHER DEPENDENCIES OF YOUR SOLUTION #
+# IMPORT THE AGENT AND OTHER DEPENDENCIES #
 from MyAgent.Agent import NoOpAgent as MyRDDLAgent
 
 
