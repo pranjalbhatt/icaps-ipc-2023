@@ -9,7 +9,11 @@ from pyRDDLGym.Policies.Agents import NoOpAgent
 
 ############################################################
 # IMPORT THE AGENT AND OTHER DEPENDENCIES OF YOUR SOLUTION #
-from MyAgent.Agent import NoOpAgent as MyRDDLAgent
+# from MyAgent.Agent import NoOpAgent as MyRDDLAgent
+import numpy as np
+from fibonacci import fibonacci
+from MyAgent.RandomAgent import RandomAgent as MyRDDLAgent
+
 
 
 
@@ -67,7 +71,7 @@ def main(env, inst, method_name=None, episodes=1):
                     start = time.time()
                     #################################################################
                     # replace the following line of code with your agent call
-                    action = agent.sample_action()
+                    action = MyRDDLAgent.sample_action()
 
 
 
